@@ -20,7 +20,8 @@ const global = {
   },
   views: {
     index,
-    templateName
+    templateName,
+    crossImage
   }
 };
 
