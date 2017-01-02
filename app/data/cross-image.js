@@ -8,8 +8,7 @@ export default {
 			text: {
 				title: "Unique and Modern Design",
 				subTitle: "Multipurpose HTML Template",
-				description: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-			doming id quod mazim placerat facer possim assum."			
+				description: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum."			
 			},
 			cta: {
 				text: 'get started now',
@@ -18,8 +17,7 @@ export default {
 		},
 		about: {
 			introduction: {
-				title: "We are digital agency based in Australia. sed do eiusmod
-tempor incididunt ut labore .",
+				title: "We are digital agency based in Australia. sed do eiusmod tempor incididunt ut labore .",
 				subtitle: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.",
 				features: [
 					{
