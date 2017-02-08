@@ -372,8 +372,37 @@ export default {
 		},
 		price: {
 			title: "Plan &amp; Pricing",
-			subTitle: "Picking the right  theme for your business in less then <span>30 second</span>"
+			subTitle: "Picking the right  theme for your business in less then <span>30 second</span>",
+			plans: [
+				{price: "19", name: "starters"},
+				{price: "39", name: "professional"},
+				{price: "99", name: "ultimate"}
+			],
+			features: ["<span>Full</span> access","Source Files","<span>Unlimited</span> Users","<span>150</span> Domains","<span>430 Email</span> Accounts","Automatic Cloud Backups"]
 		},
-		contact: {}
+		contact: {
+			"topBoxes": [
+				{
+					title: "Office Address",
+					address: "ShatMathar Mor, P.O Box 5870 <br>Mountain View. BD",
+					iconClass: "fa fa-map-marker"
+				},
+				{
+					title: "Phone Number",
+					address: "Local: 1-700-123-hello  <br>Mobile: 1-700-123-hello ",
+					iconClass: "fa fa-phone"
+				},
+				{
+					title: "Office Address",
+					address: "ShatMathar Mor, P.O Box 5870 <br>Mountain View. BD",
+					iconClass: "fa fa-envelope-o"
+				}
+			],
+			form: {
+				title: "Get In Touch",
+				subTitle: "Picking the right  theme for your business in less then <span>30 second</span>",
+			},
+			socialIcons: ["fa fa-linkedin-square", "fa fa-linkedin-square", "fa fa-facebook-square", "fa fa-pinterest-square", "fa fa-instagram", "fa fa-skype", "fa fa-dribbble", "fa fa-github", "fa fa-windows", "fa fa-youtube-play", "fa fa-apple"]
+		}
 	}
 }
