@@ -2,13 +2,13 @@ export default {
 	id: "cross",
 	name: "Cross",
 	url: "http://zakirinfo.com/cross/image.html",
-	
+
 	sections: {
 		hero: {
 			text: {
 				title: "Unique and Modern Design",
 				subTitle: "Multipurpose HTML Template",
-				description: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum."			
+				description: "Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum."
 			},
 			cta: {
 				text: 'get started now',
@@ -279,9 +279,101 @@ export default {
 				]
 			}
 		},
-		testimonial: {},
-		blog: {},
-		price: {},
+		testimonialSection: {
+			bgImg: "../img/bg4.jpg",
+			quoteIcon: "fa fa-quote-left",
+			testimonials: [
+				{
+					quote: "1This is the best of the PSD which has been well organized and focused on the smallest details and carefully placed, from every point potential that can be explored.",
+					image: "../img/t1.png"
+				},
+				{
+					quote: "2This is the best of the PSD which has been well organized and focused on the smallest details and carefully placed, from every point potential that can be explored.",
+					image: "../img/t2.png"
+				},
+				{
+					quote: "3This is the best of the PSD which has been well organized and focused on the smallest details and carefully placed, from every point potential that can be explored.",
+					image: "../img/t2.png"
+				},
+			],
+			companies: [
+				"img/c1.png",
+				"img/c3.png",
+				"img/c4.png",
+				"img/c5.png",
+				"img/c6.png",
+				"img/c7.png"
+			],
+			workProcess: {
+				sections: [
+					{
+						icon: "fa fa-code",
+						name: "Prototyping"
+					},
+					{
+						icon: "fa fa-rocket",
+						name: "Photoshop Design"
+					},
+					{
+						icon: "fa fa-external-link",
+						name: "Development"
+					}
+				],
+				subSections: ["Ideas", "Wireframes", "Prototypes"],
+				lorem: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium totam rem aperiam. Dspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem que laudantium totam rem aperiam."
+			},
+			colorSections: [
+				{
+					title: "Ultimate Coloe",
+					lorem: "Dorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consectetur vitae suscipit, pariatur praesentium, blanditiis deserunt rerum consequuntur, voluptatem culpa animi maxime illum tenetur minima unde. Quod, dignissimos sit amet qui rem laboriosam aliquam assumenda a, perferendis voluptatibus culpa asperiores quasi, adipisci repellendus cupiditate cum deleniti magni sapiente nam autem.",
+					bgImage: "../img/bg6.jpg"
+				},
+				{
+					title: "Extremely Customizable",
+					lorem: "Dorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consectetur vitae suscipit, pariatur praesentium, blanditiis deserunt rerum consequuntur, voluptatem culpa animi maxime illum tenetur minima unde. Quod, dignissimos sit amet qui rem laboriosam aliquam assumenda a, perferendis voluptatibus culpa asperiores quasi, adipisci repellendus cupiditate cum deleniti magni sapiente nam autem.",
+					bgImage: "../img/bg7.jpg"
+				},
+				{
+					title: "Parallax Background Section",
+					lorem: "Dorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consectetur vitae suscipit, pariatur praesentium, blanditiis deserunt rerum consequuntur, voluptatem culpa animi maxime illum tenetur minima unde. Quod, dignissimos sit amet qui rem laboriosam aliquam assumenda a, perferendis voluptatibus culpa asperiores quasi, adipisci repellendus cupiditate cum deleniti magni sapiente nam autem.",
+					bgImage: "../img/bg8.jpg"
+				},
+			]
+		},
+		blog: {
+			title: "Blog Post",
+			subTitle: "Picking the right theme for your business in less then 30 second",
+			posts: [
+				{
+					image: "img/b1.png",
+					title: "This is Blog Title",
+					subTitle: "Web Design, Graphic Design",
+					content: "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet."
+				},
+				{
+					image: "img/b2.png",
+					title: "This is Blog Title",
+					subTitle: "Web Design, Graphic Design",
+					content: "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet."
+				},
+				{
+					image: "img/b3.png",
+					title: "This is Blog Title",
+					subTitle: "Web Design, Graphic Design",
+					content: "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet."
+				},
+				{
+					image: "img/b4.png",
+					title: "This is Blog Title",
+					subTitle: "Web Design, Graphic Design",
+					content: "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet."
+				},
+			]
+		},
+		price: {
+			title: "Plan &amp; Pricing",
+			subTitle: "Picking the right  theme for your business in less then <span>30 second</span>"
+		},
 		contact: {}
 	}
 }
