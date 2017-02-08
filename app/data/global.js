@@ -3,6 +3,7 @@ import footer from './components/footer';
 
 import index from './templates/index';
 import templateName from './templates/template-name';
+import crossImage from './templates/cross-image';
 
 const global = {
   title: "Global Site Title",
@@ -19,7 +20,8 @@ const global = {
   },
   views: {
     index,
-    templateName
+    templateName,
+    crossImage
   }
 };
 
